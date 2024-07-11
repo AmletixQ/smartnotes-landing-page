@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
 :root {
   --primary-400: #080808;
   --primary-300: #333333;
@@ -15,12 +17,18 @@
   --text-medium: 1rem;
   --text-normal: 0.875rem;
   --text-small: 0.75rem;
+
+  --border-radius-small: 0.5rem;
+  --border-radius-normal: 0.625rem;
+  --border-radius-large: 0.75rem;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "DM Sans";
+  color: var(--accent-100);
 }
 
 h1,
