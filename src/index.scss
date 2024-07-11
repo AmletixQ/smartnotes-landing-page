@@ -34,6 +34,13 @@
   box-sizing: border-box;
   font-family: "DM Sans";
   color: var(--accent-100);
+
+  span {
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 h1,
@@ -65,4 +72,5 @@ h6 {
 }
 p {
   line-height: var(--line-large);
+  color: var(--primary-100);
 }

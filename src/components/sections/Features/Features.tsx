@@ -4,7 +4,7 @@ import "./Features.scss";
 const Features = () => {
   return (
     <section className="features">
-      <div>
+      <div className="info">
         <h2>
           Discover the Power of <span>SmartNotes</span>
         </h2>

@@ -4,10 +4,10 @@ import icon3 from "assets/features-icons/secure-cloud-storage.svg";
 import icon4 from "assets/features-icons/real-time.svg";
 import icon5 from "assets/features-icons/hashtag.svg";
 import icon6 from "assets/features-icons/integrations.svg";
-import Card from "./Card/Card";
+import Card, { CardProps } from "./Card/Card";
 import "./Cards.scss";
 
-const cards = [
+const cards: CardProps[] = [
   {
     title: "Cross-Platform Accessibility",
     details:
@@ -49,8 +49,8 @@ const cards = [
 const Cards = () => {
   return (
     <div className="cards-container">
-      {cards.map((card) => (
-        <Card />
+      {cards.map((card, idx) => (
+        <Card key={idx} {...card} />
       ))}
     </div>
   );

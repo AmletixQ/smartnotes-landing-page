@@ -1,3 +1,16 @@
 .cards-container {
-  
+  display: grid;
+  gap: 1.5rem;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  .card-container:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .card-container:nth-child(2) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
 }
