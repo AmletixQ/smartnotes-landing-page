@@ -24,7 +24,9 @@ const Heading = () => {
           </Button>
         </form>
       </div>
-      <img src={AbstractShapes} alt="Abstract Shapes" />
+      <div className="illustration-container">
+        <img src={AbstractShapes} alt="Abstract Shapes" />
+      </div>
     </section>
   );
 };
