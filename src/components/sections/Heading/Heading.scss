@@ -1,0 +1,51 @@
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10rem;
+
+  padding: 8rem 9.5rem;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+
+    .content {
+      span {
+        background: var(--gradient);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      p {
+        font-size: var(--text-medium);
+        color: var(--primary-100);
+      }
+    }
+
+    form {
+      display: flex;
+      gap: 3rem;
+      border: 1px solid var(--primary-200);
+      width: fit-content;
+      background-color: var(--accent-100);
+      padding: 0.375rem 0.375rem 0.375rem 1.5rem;
+      border-radius: var(--border-radius-small);
+
+      input {
+        color: var(--primary-400);
+        font-size: var(--text-medium);
+        background-color: transparent;
+        outline: 0;
+        border: 0;
+
+        &::placeholder {
+          font-size: var(--text-medium);
+          color: var(--primary-300);
+        }
+      }
+    }
+  }
+}

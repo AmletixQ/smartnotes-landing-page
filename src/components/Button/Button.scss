@@ -1,0 +1,27 @@
+.button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding: 1rem 1.5rem;
+  border: 0;
+  color: var(--primary-400);
+  font-size: var(--text-medium);
+  border-radius: var(--border-radius-small);
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.gradient {
+    background: var(--gradient);
+  }
+
+  &.accent {
+    background: var(--accent-100);
+  }
+
+  &.bold {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+
+  a {
+    font-size: var(--text-medium);
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
