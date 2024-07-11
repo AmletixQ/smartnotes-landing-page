@@ -1,12 +1,14 @@
 .button {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
 
   padding: 1rem 1.5rem;
   border: 0;
   color: var(--primary-400);
   font-size: var(--text-medium);
+
   border-radius: var(--border-radius-small);
 
   &:hover {
@@ -19,6 +21,7 @@
 
   &.accent {
     background: var(--accent-100);
+    border: 1px solid var(--secondary-200);
   }
 
   &.bold {

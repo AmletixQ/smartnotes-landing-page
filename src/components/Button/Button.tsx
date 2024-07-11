@@ -14,7 +14,7 @@ const button = cva("button", {
   },
 });
 
-interface ButtonProps extends PropsWithChildren, VariantProps<typeof button> {
+export interface ButtonProps extends PropsWithChildren, VariantProps<typeof button> {
   className?: string;
 }
 

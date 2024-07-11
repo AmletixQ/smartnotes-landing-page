@@ -5,6 +5,7 @@ import Partners from "components/sections/Partners/Partners";
 import Testimonial from "components/sections/Testimotional/Testimonial";
 import Features from "components/sections/Features/Features";
 import Video from "components/sections/Video/Video";
+import Pricing from "components/sections/Pricing/Pricing";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         fullname=" Sarah Johnson"
         position="TechSavvy Solutions"
       />
+      <Pricing />
       <Testimonial
         summury="The real-time synchronization and AI-powered organization have made our workflow more efficient than ever. "
         fullname=" Sarah Johnson"
