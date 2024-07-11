@@ -1,6 +1,6 @@
 import Button from "components/Button/Button";
-import ArrowP3 from "src/assets/icons/arrow-primary-300.svg";
-import AbstractShapes from "src/assets/block-icons/abstract-shapes.svg";
+import ArrowP3 from "assets/icons/arrow-primary-300.svg";
+import AbstractShapes from "assets/block-icons/abstract-shapes.svg";
 import "./Heading.scss";
 
 const Heading = () => {

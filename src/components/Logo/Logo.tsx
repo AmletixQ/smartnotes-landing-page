@@ -1,4 +1,4 @@
-import LogoIcon from "src/assets/social-icons/logo-icon.svg";
+import LogoIcon from "assets/social-icons/logo-icon.svg";
 import "./Logo.scss";
 
 const Logo = () => {

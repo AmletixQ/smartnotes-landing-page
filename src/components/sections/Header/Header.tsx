@@ -1,4 +1,4 @@
-import ArrowP3 from "src/assets/icons/arrow-primary-300.svg";
+import ArrowP3 from "assets/icons/arrow-primary-300.svg";
 import Navbar from "components/Navbar/Navbar";
 import Logo from "components/Logo/Logo";
 import Button from "components/Button/Button";

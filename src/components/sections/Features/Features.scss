@@ -1,0 +1,26 @@
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5.5rem;
+  padding: 4.375rem 9rem;
+
+  & > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    flex-direction: column;
+    text-align: center;
+
+    width: 40rem;
+
+    p {
+      color: var(--primary-100);
+      width: 25.5rem;
+      text-align: center;
+    }
+  }
+}
