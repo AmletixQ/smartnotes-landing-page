@@ -1,0 +1,17 @@
+.pricing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.5rem;
+
+  padding: 6rem 9rem;
+
+  & > .info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    width: 25rem;
+  }
+}

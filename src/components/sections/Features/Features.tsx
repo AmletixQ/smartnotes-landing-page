@@ -6,7 +6,7 @@ const Features = () => {
     <section className="features">
       <div className="info">
         <h2>
-          Discover the Power of <span>SmartNotes</span>
+          Discover the Power of <span className="gradient">SmartNotes</span>
         </h2>
         <p>
           SmartNotes is packed with innovative features designed to

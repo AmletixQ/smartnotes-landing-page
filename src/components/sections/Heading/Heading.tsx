@@ -9,8 +9,8 @@ const Heading = () => {
       <div>
         <div className="content">
           <h1>
-            <span>Intelligent</span> cloud-based <span>note-taking</span> and
-            collaboration tool
+            <span className="gradient">Intelligent</span> cloud-based{" "}
+            <span className="gradient">note-taking</span> and collaboration tool
           </h1>
           <p>
             Experience the power of smart note-taking and transform the way you
