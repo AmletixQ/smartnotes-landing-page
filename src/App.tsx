@@ -6,6 +6,7 @@ import Testimonial from "components/sections/Testimotional/Testimonial";
 import Features from "components/sections/Features/Features";
 import Video from "components/sections/Video/Video";
 import Pricing from "components/sections/Pricing/Pricing";
+import FAQ from "components/sections/FAQ/FAQ";
 
 const App = () => {
   return (
@@ -14,30 +15,31 @@ const App = () => {
       <Heading />
       <Partners />
       <Testimonial
-        summury="The real-time synchronization and AI-powered organization have made our workflow more efficient than ever. "
+        summary="The real-time synchronization and AI-powered organization have made our workflow more efficient than ever. "
         fullname=" Sarah Johnson"
         position="TechSavvy Solutions"
       />
       <Features />
       <Testimonial
-        summury="The real-time synchronization and AI-powered organization have made our workflow more efficient than ever. "
+        summary="The real-time synchronization and AI-powered organization have made our workflow more efficient than ever. "
         fullname=" Sarah Johnson"
         position="TechSavvy Solutions"
       />
       <Video />
       <Testimonial
-        summury="The real-time synchronization and AI-powered organization have made our workflow more efficient than ever. "
+        summary="The real-time synchronization and AI-powered organization have made our workflow more efficient than ever. "
         fullname=" Sarah Johnson"
         position="TechSavvy Solutions"
       />
       <Pricing />
       <Testimonial
-        summury="The real-time synchronization and AI-powered organization have made our workflow more efficient than ever. "
+        summary="The real-time synchronization and AI-powered organization have made our workflow more efficient than ever. "
         fullname=" Sarah Johnson"
         position="TechSavvy Solutions"
       />
+      <FAQ />
       <Testimonial
-        summury="The real-time synchronization and AI-powered organization have made our workflow more efficient than ever. "
+        summary="The real-time synchronization and AI-powered organization have made our workflow more efficient than ever. "
         fullname=" Sarah Johnson"
         position="TechSavvy Solutions"
       />

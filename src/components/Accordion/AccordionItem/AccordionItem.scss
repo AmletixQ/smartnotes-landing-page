@@ -1,0 +1,50 @@
+.accordion-item-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+
+  padding: 1rem 1.875rem;
+
+  overflow-y: hidden;
+
+  border: 1px solid var(--secondary-200);
+  border-radius: var(--border-radius-small);
+
+  transition: all 200ms;
+
+  &.active {
+    background-color: var(--accent-100);
+
+    h5 {
+      color: var(--primary-400);
+    }
+
+    p {
+      color: var(--primary-300);
+    }
+  }
+
+  .accoridion-item-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button {
+      background-color: transparent;
+      border: 0;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    height: 0;
+  }
+  to {
+  }
+}

@@ -1,0 +1,14 @@
+.faq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.5rem;
+
+  flex-direction: column;
+  padding: 6rem;
+
+  .info {
+    width: 50rem;
+    text-align: center;
+  }
+}
