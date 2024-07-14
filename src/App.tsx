@@ -8,6 +8,8 @@ import Video from "components/sections/Video/Video";
 import Pricing from "components/sections/Pricing/Pricing";
 import FAQ from "components/sections/FAQ/FAQ";
 import CTA from "components/sections/CTA/CTA";
+import PrivatePolicy from "components/sections/PrivatePolicy/PrivatePolicy";
+import Footer from "components/sections/Footer/Footer";
 
 const App = () => {
   return (
@@ -45,6 +47,8 @@ const App = () => {
         position="TechSavvy Solutions"
       />
       <CTA />
+      <Footer />
+      <PrivatePolicy />
     </main>
   );
 };

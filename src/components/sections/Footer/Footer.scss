@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  gap: 6.25rem;
+
+  border-top: 0.5px var(--secondary-200) solid;
+  padding: 5rem 9rem 5.5rem 9rem;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    form {
+      width: 19.125rem;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      padding: 0.5rem 1rem;
+      background-color: var(--accent-100);
+
+      border-radius: var(--border-radius-small);
+
+      input,
+      button {
+        background-color: transparent;
+        border: 0;
+      }
+
+      input {
+        font-size: var(--text-normal);
+
+        &::placeholder {
+          font-size: var(--text-normal);
+        }
+      }
+    }
+  }
+}
