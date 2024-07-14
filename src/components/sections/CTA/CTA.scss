@@ -18,4 +18,12 @@
       width: fit-content;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    padding: 5rem 3rem;
+    justify-content: start;
+    img {
+      display: none;
+    }
+  }
 }

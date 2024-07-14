@@ -1,0 +1,17 @@
+.burgermenu {
+  height: 1.125rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1.5rem;
+
+  .dash {
+    width: 2rem;
+    border: 2px solid var(--accent-100);
+  }
+
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+  }
+}

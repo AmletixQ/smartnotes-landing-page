@@ -1,8 +1,15 @@
 .video-section {
+  padding: 4rem 5rem;
   position: relative;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
+  .video-preview {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
 
   .play-button {
     position: absolute;
@@ -22,6 +29,18 @@
 
     &:hover {
       cursor: pointer;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    padding: 4rem 3rem;
+  }
+
+  @media screen and (max-width: 425px) {
+    padding: 4rem 1.25rem;
+    .play-button {
+      width: 4.125rem;
+      height: 4.125rem;
     }
   }
 }

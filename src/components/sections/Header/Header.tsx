@@ -3,17 +3,19 @@ import Navbar from "components/Navbar/Navbar";
 import Logo from "components/Logo/Logo";
 import Button from "components/Button/Button";
 import "./Header.scss";
+import BurgerMenu from "components/BurgerMenu/BurgerMenu";
 
 const Header = () => {
   return (
-    <div className="header">
+    <header className="header">
       <Logo />
       <Navbar />
       <Button intent={"gradient"}>
         Get Started
         <img src={ArrowP3} alt="p3a" />
       </Button>
-    </div>
+      <BurgerMenu />
+    </header>
   );
 };
 

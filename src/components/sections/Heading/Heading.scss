@@ -34,4 +34,24 @@
       }
     }
   }
+
+  @media screen and (max-width: 1024px) {
+    & > img {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 6rem 3rem;
+  }
+
+  @media screen and (max-width: 425px) {
+    padding: 6rem 1.25rem;
+
+    & > div {
+      form {
+        gap: 1rem;
+      }
+    }
+  }
 }

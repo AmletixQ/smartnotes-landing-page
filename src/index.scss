@@ -34,13 +34,13 @@
   box-sizing: border-box;
   font-family: "DM Sans";
   color: var(--accent-100);
+}
 
-  span.gradient {
-    background: var(--gradient);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+span.gradient {
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h1,
@@ -73,4 +73,15 @@ h6 {
 p {
   line-height: var(--line-large);
   color: var(--primary-100);
+}
+
+@media screen and (max-width: 425px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.875rem;
+  }
 }

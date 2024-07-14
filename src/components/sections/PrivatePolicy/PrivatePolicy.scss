@@ -17,4 +17,11 @@
 
     gap: 0.625rem;
   }
+
+  @media screen and (max-width: 425px) {
+    padding: 0.5rem 1.25rem;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: start;
+  }
 }

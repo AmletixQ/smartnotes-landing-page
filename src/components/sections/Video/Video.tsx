@@ -5,7 +5,7 @@ import "./Video.scss";
 const Video = () => {
   return (
     <section className="video-section">
-      <img src={Preview} alt="Preview" />
+      <img src={Preview} alt="Preview" className="video-preview" />
       <div className="play-button">
         <img src={Play} alt="Play" />
       </div>

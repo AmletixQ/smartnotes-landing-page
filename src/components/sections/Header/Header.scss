@@ -6,4 +6,15 @@
   padding: 1.5rem 6rem;
 
   border-bottom: 0.5px solid var(--secondary-200);
+
+  @media screen and (max-width: 768px) {
+    padding: 1.5rem 3rem;
+    button {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    padding: 1.5rem 1.25rem;
+  }
 }

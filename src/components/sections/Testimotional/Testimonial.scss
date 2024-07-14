@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
 
-  padding: 6rem 0 4rem 0;
+  padding: 6rem 4rem;
 
   .content {
     display: flex;
@@ -33,6 +33,29 @@
 
       .position {
         color: var(--primary-300);
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 4rem 0;
+  }
+
+  @media screen and (max-width: 425px) {
+    padding: 4rem 1.25rem;
+    .content {
+      width: auto;
+
+      .text {
+        h5 {
+          font-size: 1.25rem;
+        }
+      }
+
+      .info {
+        p {
+          font-size: var(--text-normal);
+        }
       }
     }
   }

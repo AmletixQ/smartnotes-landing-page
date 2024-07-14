@@ -38,6 +38,10 @@
       }
     }
   }
+
+  @media screen and (max-width: 425px) {
+    padding: 1.875rem 1.5rem;
+  }
 }
 
 @keyframes fadeIn {

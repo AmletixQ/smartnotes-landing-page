@@ -22,4 +22,20 @@
       text-align: center;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    width: auto;
+    padding: 4.375rem 3rem;
+  }
+
+  @media screen and (max-width: 425px) {
+    padding: 4rem 1.25rem;
+    .info {
+      width: auto;
+      
+      p {
+        width: auto;
+      }
+    }
+  }
 }

@@ -11,4 +11,19 @@
     width: 50rem;
     text-align: center;
   }
+
+  @media screen and (max-width: 768px) {
+    padding: 6rem 6.5rem;
+    .info {
+      width: 33.5rem;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    padding: 4rem 1.25rem;
+
+    .info {
+      width: auto;
+    }
+  }
 }
