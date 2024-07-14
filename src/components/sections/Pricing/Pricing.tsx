@@ -13,6 +13,7 @@ const Pricing = () => {
           coding. Build your next landing page.
         </p>
       </div>
+      {/* TODO: Create switch button */}
       <Plans />
     </section>
   );
