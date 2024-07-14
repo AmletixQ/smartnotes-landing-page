@@ -7,6 +7,7 @@ import Features from "components/sections/Features/Features";
 import Video from "components/sections/Video/Video";
 import Pricing from "components/sections/Pricing/Pricing";
 import FAQ from "components/sections/FAQ/FAQ";
+import CTA from "components/sections/CTA/CTA";
 
 const App = () => {
   return (
@@ -43,6 +44,7 @@ const App = () => {
         fullname=" Sarah Johnson"
         position="TechSavvy Solutions"
       />
+      <CTA />
     </main>
   );
 };

@@ -1,0 +1,21 @@
+.cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+
+  padding: 5rem 6rem;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: 31rem;
+
+    button {
+      font-size: 1.125rem;
+      width: fit-content;
+    }
+  }
+}
